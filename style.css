@@ -1,0 +1,55 @@
+.license {
+      width: 500px;
+      background: #e2e184;
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .license h2 {
+      margin: 0;
+      text-align: center;
+      background: #dce742;
+      color: #1d5e9b;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .middle-row {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      gap: 10px;
+    }
+
+    .photo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #eee;
+      border: 1px solid #ccc;
+      height: 120px;
+    }
+
+    .photo img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover;
+    }
+
+    .info, .dates {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 18px;
+    }
+
+    .bottom-row {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 14px;
+    }
